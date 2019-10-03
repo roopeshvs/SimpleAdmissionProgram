@@ -1,4 +1,11 @@
 <html lang="en">
+    <style>
+        @media print {
+            #printPageButton {
+              display: none;
+            }
+          }
+</style>
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -37,11 +44,8 @@
                 <input type="text" readonly class="form-control-plaintext" value="UKG TO VI:TAMIL/HINDI,ENGLISH-GRAMMAR,MATHS,EVS,G.K & ORAL SKILLS">
                 <input type="text" readonly class="form-control-plaintext" value="VII TO X:TAMIL,ENGLISH,MATHS,SCIENCE & SOCIAL">
             </div>
-    
-        
-        <input type="submit" 
-       style="position: absolute; left: -9999px; width: 1px; height: 1px;"
-       tabindex="-1" />
+            <button type="submit" class="btn btn-primary mb-2">Submit</button>
+            <button id="printPageButton" onClick="window.print();return false" class="btn btn-primary mb-2"> Print</button>
       </form>
 
     <!-- Optional JavaScript -->
