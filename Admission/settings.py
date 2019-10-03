@@ -25,7 +25,7 @@ SECRET_KEY = '^%*#_@mv@+d(jj@))1yitop)q5by=crb^4ibdk@f1h9)f##5ot'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['nm-admissions.herokuapp.com']
 
 
 # Application definition
